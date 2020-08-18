@@ -48,7 +48,7 @@ public class DerelictTowerGrassPieces {
     public static class Piece extends AbstractTowerPiece {
 
         public Piece(TemplateManager templateManager, ResourceLocation structurePart, BlockPos absolutePos, Rotation rotation) {
-            super(templateManager, structurePart, rotation, RegistryHandler.DERELICT_TOWER_PIECE, CENTER_TOP_OFFSETS);
+            super(templateManager, structurePart, rotation, RegistryHandler.DERELICT_TOWER_GRASS_PIECE, CENTER_TOP_OFFSETS);
             BlockPos relativePos = CORNER_RELATIVE_POSITIONS.get(structurePart);
             this.templatePosition = absolutePos.add(relativePos.getX(), relativePos.getY(), relativePos.getZ());
             this.func_207614_a(templateManager);

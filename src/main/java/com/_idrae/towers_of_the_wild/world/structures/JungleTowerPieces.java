@@ -34,11 +34,9 @@ import java.util.Random;
 
 public class JungleTowerPieces {
 
-    // private static final ResourceLocation JUNGLE_TOWER_TOP = new ResourceLocation(TowersOfTheWild.MOD_ID, "jungle_tower_top");
     private static final ResourceLocation JUNGLE_TOWER_TOP = ModList.get().isLoaded("waystones") && TowersOfTheWildConfig.waystonesCompat ? new ResourceLocation(TowersOfTheWild.MOD_ID, "waystone_jungle_tower_top") : new ResourceLocation(TowersOfTheWild.MOD_ID, "jungle_tower_top");
     private static final ResourceLocation JUNGLE_TOWER_BOTTOM = new ResourceLocation(TowersOfTheWild.MOD_ID, "jungle_tower_bottom");
 
-    private static final ResourceLocation TOWER_CHEST = new ResourceLocation(TowersOfTheWild.MOD_ID, "chests/tower_chest");
     private static final Map<ResourceLocation, BlockPos> CENTER_TOP_OFFSETS = ImmutableMap.of(JUNGLE_TOWER_TOP, new BlockPos(7, 28, 7), JUNGLE_TOWER_BOTTOM, new BlockPos(4, 31, 4));
     private static final Map<ResourceLocation, BlockPos> CORNER_RELATIVE_POSITIONS = ImmutableMap.of(JUNGLE_TOWER_TOP, new BlockPos(-3, 31, -3), JUNGLE_TOWER_BOTTOM, BlockPos.ZERO);
 

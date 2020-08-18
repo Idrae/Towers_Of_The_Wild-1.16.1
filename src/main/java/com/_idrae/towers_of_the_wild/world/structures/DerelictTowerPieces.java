@@ -57,7 +57,7 @@ public class DerelictTowerPieces {
         }
 
         public Piece(TemplateManager p_i50566_1_, CompoundNBT p_i50566_2_) {
-            super(p_i50566_1_, RegistryHandler.DERELICT_TOWER_GRASS_PIECE, p_i50566_2_, CENTER_TOP_OFFSETS);
+            super(p_i50566_1_, RegistryHandler.DERELICT_TOWER_PIECE, p_i50566_2_, CENTER_TOP_OFFSETS);
         }
 
         @Override

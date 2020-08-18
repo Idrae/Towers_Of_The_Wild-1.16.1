@@ -86,7 +86,7 @@ public class TowerStructure extends Structure<NoFeatureConfig> {
         int l1 = generator.func_222531_c(xStart + offset, zStart + offset, Heightmap.Type.WORLD_SURFACE_WG);
         int minHeight = Math.min(Math.min(i1, j1), Math.min(k1, l1));
         int maxHeight = Math.max(Math.max(i1, j1), Math.max(k1, l1));
-        return Math.abs(maxHeight - minHeight) <= 25;
+        return Math.abs(maxHeight - minHeight) <= 20;
     }
 
 

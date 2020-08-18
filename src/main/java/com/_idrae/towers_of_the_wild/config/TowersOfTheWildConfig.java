@@ -2,6 +2,7 @@ package com._idrae.towers_of_the_wild.config;
 
 import com._idrae.towers_of_the_wild.TowersOfTheWild;
 import com.google.common.collect.Lists;
+import net.minecraft.nbt.NBTUtil;
 import net.minecraft.world.biome.SnowyTundraBiome;
 import net.minecraft.world.biome.TaigaBiome;
 import net.minecraft.world.gen.feature.Feature;
@@ -88,13 +89,17 @@ public class TowersOfTheWildConfig {
                                 "minecraft:beach",
                                 "minecraft:stone_shore",
                                 "minecraft:snowy_beach",
-                                "minecraft:nether",
+                                "minecraft:nether_wastes",
+                                "minecraft:soul_sand_valley",
+                                "minecraft:crimson_forest",
+                                "minecraft:warped_forest",
+                                "minecraft:basalt_deltas",
                                 "minecraft:the_end",
                                 "minecraft:small_end_islands",
                                 "minecraft:end_midlands",
                                 "minecraft:end_highlands",
                                 "minecraft:end_barrens",
-                                "minecraft:the_void",
+                                "minecraft:jungle",
                                 "biomesoplenty:gravel_beach",
                                 "biomesoplenty:white_beach",
                                 "biomesoplenty:ashen_inferno",
